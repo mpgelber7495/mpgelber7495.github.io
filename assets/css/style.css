@@ -102,17 +102,85 @@ img.main-item {
 /* Styling specific to the portfolio page */
 .project-holder {
   margin: 0px 0px 18px 25px;
+  position: relative;
 }
 
 .project-name {
-  padding: auto;
+  padding: 14px 13px 14px 12px;
+  font-size: 20px;
+  width: 250px;
   color: white;
   background-color: #4aaaa5;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.project-image {
+}
+
+.row {
+  margin-bottom: 30px;
 }
 
 .row::after {
-  content: "";
   clear: both;
+  content: "";
+  display: block;
+}
+[class*="col-"] {
+  float: left;
+  height: 270px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-11 {
+  width: 91.67%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-1 {
+  width: 8.33%;
 }
 
 /* Styling for contact page */
