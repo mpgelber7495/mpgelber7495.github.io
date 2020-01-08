@@ -7,6 +7,9 @@ footer {
   bottom: 0;
 }
 
+a {
+  color: white;
+}
 .main-body-text {
   font-size: 20px;
 }
@@ -29,3 +32,21 @@ footer {
   border: 1px solid white;
   opacity: 0.9;
 }
+
+#myCanvas {
+  height: 100px;
+}
+
+.linked-word:hover {
+  color: gray;
+}
+
+/* Styling for devicons */
+/* .devicon-python-plain {
+  width: 10em;
+} */
+
+/* if you want to change the original color */
+/* .devicon-git-plain path {
+  fill: #4691f6;
+} */
